@@ -8,6 +8,7 @@
         Garp s.r.l.s.
     </author>
     <content src="index.html" />
+    <preference name="Fullscreen" value="true" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="StatusBarOverlaysWebView" value="false" />
