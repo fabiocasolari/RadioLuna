@@ -4,5 +4,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "displayName": "Radio Luna"
+    "displayName": "Radio Luna",
+    "dependencies": {
+        "cordova-plugin-streaming": "^1.4.0"
+    }
 }
