@@ -57,29 +57,23 @@
 					<div class="separator-large"></div>
 					<div class="separator-large"></div>
 					<div class="separator-large"></div>
+					<div class="separator-large"></div>
+					<div class="separator-large"></div>
 					<!-- end separator -->
 
 					<audio controls>
 					  <source src="http://live.radioluna.com/radio/8000/radio.mp3" type="audio/mpeg">
-					Your browser does not support the audio element.
+					   Your browser does not support the audio element.
 					</audio>
 
-					<div class="container" align="center">
-						<i class="icon ion-ios-play" style="user-select: auto; font-size: 90px; color: black;"></i>
-					</div>
 					<div class="separator-large"></div>
 					<div class="separator-large"></div>
 					<h3><a href="whatsapp://+393755906677">WhatsApp 375 5906677</a></h3>
+					<div class="separator-large"></div>
 					<h3><a href="tel:+390522856598">Diretta 0522 856598</a></h3>
 
 				</div>
 			</div>
-
-			<!-- separator -->
-			<div class="separator-large"></div>
-			<!-- end separator -->
-
-
 
 		<!-- separator -->
 		<div class="separator-large" style="user-select: auto;"></div>
@@ -97,29 +91,6 @@
 	<script src="js/swiper.min.js" style="user-select: auto;"></script>
 	<script src="js/jquery.big-slide.js" style="user-select: auto;"></script>
 	<script src="js/main.js" style="user-select: auto;"></script>
-	<script type="text/javascript">
-		var audio = new Audio("http://live.radioluna.com/radio/8000/radio.mp3");
-
-		$('.icon').on("click",function(){
-		  if($(this).hasClass('ion-ios-play'))
-		   {
-		     $(this).removeClass('ion-ios-play');
-		     $(this).addClass('ion-ios-pause');
-		     audio.play();
-		   }
-		  else
-		   {
-		     $(this).removeClass('ion-ios-pause');
-		     $(this).addClass('ion-ios-play');
-		     audio.pause();
-		   }
-		});
-
-		audio.onended = function() {
-		     $("#play-pause-button").removeClass('ion-pause');
-		     $("#play-pause-button").addClass('ion-play');
-		};
-	</script>
 	<script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
