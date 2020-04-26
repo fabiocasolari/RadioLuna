@@ -1,11 +1,5 @@
 $(function() {
 
-    $('div[data-include]').each(function() {
-        $(this).load($(this).attr('data-include') + '.html').trigger('create');
-    });
-
-    document.getElementById('audio').currentTime = 0;
-
   'use strict';
 
   $.fakeLoader({
